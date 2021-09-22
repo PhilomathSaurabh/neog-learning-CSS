@@ -5,6 +5,18 @@ body{
   sans-serif;
 }
 
+.container{
+padding: 2rem;
+background-color: orange;
+}
+
+.container_center{
+  padding: 1rem;
+  background-color: peachpuff;
+  max-width: 600px;
+  margin: auto;
+}
+
 /* Error = use comma after the body - key, value pair!! 
 was not using it so get an error!! */
 
