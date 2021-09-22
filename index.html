@@ -8,6 +8,13 @@
 <link rel="stylesheet" href="css/blogstyle.css">
 </head>
 <body>
+
+<header class="header-class">
+  <h2>Philomath Saurabh</h2>
+  <img class="header-img" src="image/boy_playing.svg" alt="">
+</header>
+
+
   <h1>Introduction to CSS</h1>
   <div>CSS is more verbose than HTML</div>
   <ol>
@@ -57,12 +64,23 @@
     <li>Start using class selector in CSS</li>
     <li>we will start with class - container</li>
     <li>Add class container in some of the divs and check whether its working or not?</li>
-    <li></li>
-  
+    <li class="imp">Align the text right</li>
+    <li>use csstricks website - amazing place to learn lot about css!!</li>
+    <li>using span class and adding style to the span. This will help to add extra colors</li>
 
   </ol>
-
   <hr>
+
+  <h2>links in CSS</h2>
+  <p>We have to define the color as a variable and use it throughout the app</p>
+  <ol>
+    <li>use root element for styling the entire website</li>
+    <li>--primarycolor: red this will be used throughout app.</li>
+    <li>what is the difference bw the link tag and a tag?</li>
+    <li><link /> is an empty element, i.e. it can not have anything inside of it. All it does is specify a relationship with another document. Additionally, the <link> tag is only used in the <head> section.
+
+      <a></a> on the other hand, is not an empty element and specifies an object to be created on the page - like a clickable link or image - which takes the user to some other location. This tag is only used in the <body> section.</li>
+  </ol>
 
 <h3>working with CSS class</h3>
 <p class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci optio doloribus quibusdam reiciendis, temporibus vel nemo rerum laboriosam illo vitae repudiandae! Nulla, repellendus illo aliquam atque odit dignissimos? Recusandae, ratione?</p>
@@ -81,8 +99,8 @@
     <li>CSS Units</li>
     <li>read about these units - rem, px, em,  </li>
     <li>we use rem so that when we increase or decrease the font size, the fonts, spaces everything increases.</li>
+    <li>Look into the BEM naming convention for CSS</li>
   </ol>
-  <li></li>
 </p>
 
 
@@ -95,9 +113,9 @@
   Add 2 containers below this
   -->
   <h3>This is left aligned container</h3>
-  <div>THis is a random container which will cover whole of space. </div>
-  <h3>This is right aligned container</h3>
-  <div>THis is a random container which will appear on the right side. </div>
+  <div class="container-center">THis will be seen at the centre. </div>
+  <h3>This is normal container</h3>
+  <div class="container">THis is a random container which will appear on the right side. </div>
   
 <hr>
 
@@ -105,6 +123,8 @@
   <div>Here is the link to my github profile</div>
   <a href="https://github.com/PhilomathSaurabh">Click here to visit the github profile</a>
 
+  <a class="link" href="https://github.com/PhilomathSaurabh">github link</a>
+  <a class="link" href="https://github.com/PhilomathSaurabh">Twitter link</a>
   <!-- Just used a shortcut Alt Z because I minimised the whole window so that I can make notes here and at the same time code!! :) Nice Saurabh -->
 
   <h3>Block Element</h3>
@@ -124,6 +144,7 @@
 
 <h3>Lists</h3>
 <div>Lists are very imp, even in case of paragraphs</div>
+<div>Lists will not have numbering</div>
 <div>Here is my list 
   <div>1. Item 1</div>
   <div>2. Item 2</div>
@@ -132,12 +153,12 @@
 <div>The above list was created using div tag, Now lets try using unordered list</div>
 
 <h3>Unordered List</h3>
-<ul>
-  <li>item 1</li>
-  <li>item 2</li>
-  <li>item 3</li>
-  <li>item 4</li>
-  <li>item 5</li>
+<ul class="inline-unordered-list">
+  <li class="inline-unordered-list">item 1</li>
+  <li class="inline-unordered-list">item 2</li>
+  <li class="inline-unordered-list">item 3</li>
+  <li class="inline-unordered-list">item 4</li>
+  <li class="inline-unordered-list">item 5</li>
 </ul>
 <h3>Ordered List</h3>
 <ol>
@@ -177,17 +198,31 @@
 
 <hr>
 
-<h4>Nav applied</h4>
-<nav>
-  <div>Polymath Saurabh</div>
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/">Products</a></li>
-    <li><a href="/">Blogs</a></li>
-  </ul>
-</nav>
+<h3>Imp Command</h3>
+<h4 class="imp">how to select all</h4>
+<ol>
+  <li>first select what to edit</li>
+  <li>now press Ctrl + D, it will select all the items with same name</li>
+  <li>Edit all!!</li>
+</ol>
+<h3 class="imp">Errors</h3>
+<ol>
+  <li>Not able to see the changes - it is because both the files are not getting saved.</li>
+  <li>Writing wrong class name</li>
+  <li class="imp">Writing class name at wrong place eg. wrote class name in li when wanted to write in a tag!!!</li>
+  <li>Was not able to align right the navigation bar because I was adding align right to the list class, what was needed was adding text align in the .navigation .link class</li>
+  <li class="imp">Not able to learn inline navigation bar!!! Not able to set the inline thing on items!!! This could be because while understanding for the first time I was getting errors!!</li>
+  <li class="imp-bold">Inline WILL WORK ON li COMPONENTS and NOT UL OR A!!!</li>
+  <li>Focus on where to add the css styles and life would be easy</li>
+</ol>
 
-<hr>
+
+<h3>Navigation Tips</h3>
+<ol>
+  <li>When we have naviation class - then one of the links would be active</li>
+  <li>add link active class to all the a tags</li>
+</ol>
+
 
 <h3>@header</h3>
 <div>You have a header tag which can directly be used.
@@ -294,6 +329,7 @@
 
 
 <hr>
+<div>
 <h3>Additional Notes</h3>
 <div>I am adding more notes which I took before completely starting to write notes on the web-page only</div>
 <div>
@@ -394,7 +430,7 @@
 <hr>
 <h3>Using Footer</h3>
 <div>We have footer tag to be directly used in html</div>
-
+</div>
 <footer>
   <div>Finally we are at the page end!!</div>
   <ul>
@@ -408,5 +444,18 @@
 
 
 </div>
+
+
+<h4>Nav applied</h4>
+<nav class="navigation">
+  <div class="navbrand">Navbar</div>
+
+  <ul class="nav-right-align">
+    <li class="link"><a class="link link-active" href="/">Home</a></li>
+    <li class="link"><a  class="link" href="/">products</a></li>
+    <li class="link"><a class="link" href="/">blogs</a></li>
+  </ul>
+
+</nav>
 </body>
 </html>
