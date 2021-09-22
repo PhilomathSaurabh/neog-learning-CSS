@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  font-family: 'Roboto',
+  sans-serif;
+}
+
+/* Error = use comma after the body - key, value pair!! 
+was not using it so get an error!! */
+
+/* 
+body{
+  color:blue;
+}
+
+h1{
+  color:orange;
+}
+
+h3{
+  color:violet;
+}
+ */
+
+/* Commenting in CSS
+
+h1, h2, h3, body, etc are selectors
+
+If we wanted to select only one component on the page then we have to give ID to that and then select with id and give style in stylesheet. 
+
+
+Class name - Class-para
+select the class using . dot. 
+now .para {
+  color:brown;
+}
+
+Everything looks ugly right now so lets make it cleaner.
+
+Split the CSS and HTML to know you are selecting the right classes, selectors etc.
+*/
+
