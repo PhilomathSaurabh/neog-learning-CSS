@@ -1,104 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-
-
-:root{
-  --primary-color:#F47216;
+:root {
+  --primary-color: #f47216;
 }
 
-body{
-  font-family: 'Roboto',
-  sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
-.container{
-padding: 2rem;
-background-color: orange;
+.container {
+  padding: 2rem;
+  background-color: orange;
 }
 
-.container_center{
+.container_center {
   padding: 1rem;
   background-color: peachpuff;
   max-width: 600px;
   margin: auto;
 }
 
-.primary-link{
+.primary-link {
   background-color: var(--primary-color);
-  }
+}
 
-  .link{
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    color: white;
-    /* top, right, bottom, left This is the sequence for the padding */
-  }
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: white;
+  /* top, right, bottom, left This is the sequence for the padding */
+}
 
-  .secondary-link{
-    color: var(--primary-color);
-    border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
-  }
+.secondary-link {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+}
 
-  hr{
-    margin: 2rem 0rem;
-  }
+hr {
+  margin: 2rem 0rem;
+}
 
-.inline-unordered-list{
+.inline-unordered-list {
   display: inline;
   list-style: none;
   color: red;
 }
 
-.imp{
+.imp {
   color: red;
   font-style: bold;
 }
 
-
-.navigation{
+.navigation {
   background-color: var(--primary-color);
   color: white;
   padding: 1rem;
   border-radius: 1rem;
 }
-.nav-right-align{
+
+.nav-right-align {
   text-align: right;
 }
 
-.navigation .link{
+.navigation .link {
   color: white;
   display: inline;
   list-style: none;
 }
 
-.imp-bold{
+.imp-bold {
   color: black;
   font-style: bold;
   font-size: 26px;
 }
 
-.navigation .navbrand{
+.navigation .navbrand {
   font-size: large;
 }
 
-.navigation .link-active{
+.navigation .link-active {
   font-weight: bold;
-color: white;
+  color: white;
 }
 
-
-.header-class{
-  padding: 2rem ;
+.header-class {
+  padding: 2rem;
   margin: auto;
 }
 
-.header-class .header-img{
+.header-class .header-img {
   max-width: 350px;
   display: block;
   align-items: center;
 }
+
 /* Error = use comma after the body - key, value pair!! 
 was not using it so get an error!! */
 
@@ -133,4 +130,3 @@ Everything looks ugly right now so lets make it cleaner.
 
 Split the CSS and HTML to know you are selecting the right classes, selectors etc.
 */
-
